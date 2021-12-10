@@ -9,7 +9,7 @@ load_dotenv()
 get_queue = {}
 STRING = getenv("STRING_SESSION", "session")
 BOT_TOKEN = getenv("BOT_TOKEN")
-API_ID = int(getenv("API_ID", "2382418"))
+API_ID = "2382418" # int(getenv("API_ID", "2382418"))
 API_HASH = getenv("API_HASH")
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "10"))
 ASSISTANT_PREFIX = list(getenv("ASSISTANT_PREFIX", ".").split())
